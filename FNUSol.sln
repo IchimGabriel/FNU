@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30428.66
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNU-API", "FNU-API/FNU-API.csproj", "{42586879-DEEA-4A80-ABCC-37E18ABCB5D3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FNUAPI", "FNUAPI/FNUAPI.csproj", "{42586879-DEEA-4A80-ABCC-37E18ABCB5D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
