@@ -26,13 +26,14 @@ namespace FNUAPI
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            // Visualise / test API using Swashbuckle
             services.AddSwaggerGen(setup =>
             {
                 setup.SwaggerDoc(
                     "v1",
                     new Microsoft.OpenApi.Models.OpenApiInfo
                     {
-                        Title = "FNU API",
+                        Title = "FNU-API",
                         Version = "v1"
                     });
             });
@@ -55,7 +56,7 @@ namespace FNUAPI
             app.UseSwagger();
             app.UseSwaggerUI(x =>
             {
-                x.SwaggerEndpoint("/swagger/v1/swagger.json", "FNU API v1");
+                x.SwaggerEndpoint("/swagger/v1/swagger.json", "FNU-API v1");
             });
 
             app.UseEndpoints(endpoints =>
